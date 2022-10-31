@@ -1,0 +1,58 @@
+body {
+    background-color: bisque;
+    opacity: 80%;
+}
+
+
+.uno {
+    background-color: red;
+    opacity: 70%;
+    height: 40px;
+    width: 40px;
+    float:left;
+    border:2px solid;
+}
+
+.due {
+    background-color: green;
+    opacity: 70%;
+    height: 40px;
+    width: 40px;
+    float:left;
+    border:2px solid;
+}
+
+.tre {
+    background-color: blue;
+    opacity: 70%;
+    height: 40px;
+    width: 40px;
+    float:left;
+    border:2px solid;
+}
+
+
+.quattro {
+    background-color: yellow;
+    opacity: 70%;
+    height: 40px;
+    width: 40px;
+    float:left;
+    margin-left: 20px;
+    border:2px solid;
+}
+
+
+.cinque {
+    background-color: gray;
+    opacity: 70%;
+    height: 40px;
+    width: 40px;
+    float:left;
+    border:2px solid;
+}
+
+.bling:hover {
+    background-color: gold;
+
+}
