@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="chancingBg">
+    <a class="uno" href="#">red</a>
+    <a class="due" href = "#">green</a>
+    
+    <script type="text/javascript">
+        let btn = document.querySelector(".uno")
+
+        btn.addEventListener("click", function(e){
+            e.preventDefault()
+            console.log("Selezionato!")
+
+            let target = document.querySelector("#changingBg")
+
+            console.log(btnd.innerText)
+            target.style.backgroundColor = btnd.innerText
+                })
+
+
+                let btnd = document.querySelector(".due")
+                btnd.addEventListener("click", function(e){
+            e.preventDefault()
+            console.log("Selezionato!")
+
+            let target = document.querySelector("#changingBg")
+            console.log(btnd.innerText)
+            target.style.backgroundColor = btnd.innerText
+
+                })
+
+
+
+                let btn3 = document.querySelector(".tre")
+                btnt.addEventListener("click", function(e){
+                e.preventDefault()
+                console.log("Selezionato!")
+
+                let target = document.querySelector("#changingBg")
+                console.log(btnt.innerText)
+                target.style.backgroundColor = btnt.innerText
+
+                })
+
+                let btn4 = document.querySelector(".quattro")
+                btnq.addEventListener("click", function(e){
+                e.preventDefault()
+                console.log("Selezionato!")
+
+                let target = document.querySelector("#changingBg")
+                console.log(btnq.innerText)
+                target.style.backgroundColor = btnq.innerText
+
+                })
+
+
+
+
+
+
+</script>
+</body>
+</html>
