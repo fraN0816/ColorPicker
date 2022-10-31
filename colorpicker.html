@@ -37,7 +37,7 @@
 
 
 
-                let btn3 = document.querySelector(".tre")
+                let btnt = document.querySelector(".tre")
                 btnt.addEventListener("click", function(e){
                 e.preventDefault()
                 console.log("Selezionato!")
@@ -48,7 +48,7 @@
 
                 })
 
-                let btn4 = document.querySelector(".quattro")
+                let btnq = document.querySelector(".quattro")
                 btnq.addEventListener("click", function(e){
                 e.preventDefault()
                 console.log("Selezionato!")
@@ -58,6 +58,30 @@
                 target.style.backgroundColor = btnq.innerText
 
                 })
+
+                let btnc = document.querySelector(".cinque")
+                btnc.addEventListener("click", function(e){
+                e.preventDefault()
+                console.log("Selezionato!")
+
+                let target = document.querySelector("#changingBg")
+                console.log(btnc.innerText)
+                target.style.backgroundColor = btnc.innerText
+
+                })
+
+                let btns = document.querySelector(".cinque")
+                btns.addEventListener("click", function(e){
+                e.preventDefault()
+                console.log("Selezionato!")
+
+                let target = document.querySelector("#changingBg")
+                console.log(btns.innerText)
+                target.style.backgroundColor = btns.innerText
+
+                })
+
+
 
 
 
